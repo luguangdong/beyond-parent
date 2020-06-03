@@ -10,7 +10,7 @@
 
     <groupId>com.beyond</groupId>
     <artifactId>beyond-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0.RELEASE</version>
     <packaging>pom</packaging>
     <url>http://www.beyond.com</url>
     <inceptionYear>2020-Now</inceptionYear>
@@ -20,7 +20,8 @@
         <connection>scm:git:http://192.168.137.101:8080/beyond/beyond-parent.git</connection>
         <developerConnection>scm:git:http://192.168.137.101:8080/beyond/beyond-parent.git</developerConnection>
         <url>http://192.168.137.101:8080/beyond/beyond-parent</url>
-    </scm>
+      <tag>1.0.0.RELEASE</tag>
+  </scm>
 
     <properties>
         <java.version>1.8</java.version>
