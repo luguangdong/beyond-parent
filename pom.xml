@@ -10,16 +10,16 @@
 
     <groupId>com.beyond</groupId>
     <artifactId>beyond-parent</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>http://www.beyond.com</url>
     <inceptionYear>2020-Now</inceptionYear>
     <description>通用依赖-Parent</description>
 
     <scm>
-        <connection>scm:git:http://192.168.137.101:8080/beyond/beyond-parent.git</connection>
-        <developerConnection>scm:git:http://192.168.137.101:8080/beyond/beyond-parent.git</developerConnection>
-        <url>http://192.168.137.101:8080/beyond/beyond-parent</url>
+        <connection>scm:git:http://gitlab.beyond.com/beyond/beyond-parent.git</connection>
+        <developerConnection>scm:git:http://gitlab.beyond.com/beyond/beyond-parent.git</developerConnection>
+        <url>http://gitlab.beyond.com/beyond/beyond-parent</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -31,8 +31,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Projects -->
-        <beyond.version>1.0.1.RELEASE</beyond.version>
-        <beyond.development.version>1.0.2-SNAPSHOT</beyond.development.version>
+        <beyond.version>1.0.0.RELEASE</beyond.version>
+        <beyond.development.version>1.0.1-SNAPSHOT</beyond.development.version>
     </properties>
 
     <licenses>
@@ -66,7 +66,7 @@
             <dependency>
                 <groupId>com.beyond</groupId>
                 <artifactId>beyond-dependencies</artifactId>
-                <version>1.0.0.RELEASE</version>
+                <version>${project.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
